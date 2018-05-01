@@ -82,3 +82,7 @@ if(NYXMOD_OW_OSINFO)
 #    set(ENCRYPTION_KEY_TYPE "" CACHE STRING "Encryption key type")
     add_subdirectory(os_info)
 endif()
+
+if(NYXMOD_OW_MSMMTP)
+    add_subdirectory(msm_mtp)
+endif()
